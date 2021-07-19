@@ -4,5 +4,4 @@ dist: bionic
 arch:
   - ppc64le
 script:
-  - mvn clean install 
-  - mvn test 
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
