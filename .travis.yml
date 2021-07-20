@@ -2,7 +2,7 @@ language: java
 dist: bionic
 arch:
   - ppc64le
-before-install: ant 1.10.8
+install: ant 1.10.8
 script:
   - ant download
   - ant 
